@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "source_project": "ServerS5A3 / DNF90",
+  "source_head": "c2cf921b3a008505a0141a57894a1665021d510a",
+  "scope": "Source provenance for extracted PVF core; excludes game assets and runtime data",
+  "source_module": "longheng.io/server",
+  "source_go_directive": "1.26.5",
+  "observed_external_core_dependency": "golang.org/x/text/encoding/simplifiedchinese",
+  "dependency_checksums_from_source_go_sum": [
+    "golang.org/x/text v0.36.0 h1:JfKh3XmcRPqZPKevfXVpI1wXPTqbkE5f7JA92a55Yxg=",
+    "golang.org/x/text v0.36.0/go.mod h1:NIdBknypM8iqVmPiuco0Dh6P5Jcdk8lJL0CUebqK164="
+  ],
+  "file_count": 27,
+  "total_bytes": 171363,
+  "files": [
+    {
+      "path": "go-server/internal/platform/pvf/archive.go",
+      "bytes": 9542,
+      "sha256": "a67517ae8e7a4f39dc8796488780dcd14c42f79c0b223767028d74ca665eebf2",
+      "lines": 365
+    },
+    {
+      "path": "go-server/internal/platform/pvf/crypto.go",
+      "bytes": 2670,
+      "sha256": "95332ad46bb9b42c360c5d2934aed1e078fa3d34d2505a96de6934a4bc225065",
+      "lines": 113
+    },
+    {
+      "path": "go-server/internal/platform/pvf/decode.go",
+      "bytes": 2601,
+      "sha256": "8971d64050f0b04968bcf0d1e1928e93cf8e0e41ee8edea794495506d60b25ae",
+      "lines": 129
+    },
+    {
+      "path": "go-server/internal/platform/pvf/parse.go",
+      "bytes": 7696,
+      "sha256": "d9c2b4cbffd3af6378ebf22567f92fe6bc6dc197a5447d48c36daa64f7a05b65",
+      "lines": 288
+    },
+    {
+      "path": "go-server/internal/platform/pvf/patch_string.go",
+      "bytes": 7553,
+      "sha256": "b6b69ee60778ff70d32ee82a9cd55c20405c60e4f72136da054b4b22d47a0d7f",
+      "lines": 197
+    },
+    {
+      "path": "go-server/internal/platform/pvf/patch_string_test.go",
+      "bytes": 12387,
+      "sha256": "c31fba4e459a1970e5db1cbeaef369f801f742146887fb623e8bc927580db042",
+      "lines": 391
+    },
+    {
+      "path": "go-server/internal/platform/pvf/path.go",
+      "bytes": 754,
+      "sha256": "db87afb9f5eb38b730f82abd0381def1f2ed9aeefc3b7dbf794d96dc8ac13a59",
+      "lines": 36
+    },
+    {
+      "path": "go-server/internal/platform/pvf/pvf.go",
+      "bytes": 2356,
+      "sha256": "fb08f0b7c14cb096192826e42e37c4ba4ddaff85feda8e68d3b14b3f58dba845",
+      "lines": 105
+    },
+    {
+      "path": "go-server/internal/platform/pvf/read.go",
+      "bytes": 3177,
+      "sha256": "3d0685b70d48cd29167ea6643d0aef76f39ccee493cec7a3e19cb7abc8158141",
+      "lines": 100
+    },
+    {
+      "path": "go-server/internal/platform/pvf/repack.go",
+      "bytes": 14730,
+      "sha256": "7cca387ad57d0aea9f9d9f6d2a329302170ca1dd314c07db1904b85cd999520e",
+      "lines": 428
+    },
+    {
+      "path": "go-server/internal/platform/pvf/repack_add.go",
+      "bytes": 9756,
+      "sha256": "06ce407c787cebd7d514235cbdbd5a36ed5e46e20a1cf4225ecbc8455ebc969a",
+      "lines": 278
+    },
+    {
+      "path": "go-server/internal/platform/pvf/repack_add_test.go",
+      "bytes": 7595,
+      "sha256": "33249ee821b50e9be07d923b7274340f2f84fadf4fd84c50e7e93f094661b8ab",
+      "lines": 207
+    },
+    {
+      "path": "go-server/internal/platform/pvf/repack_verify.go",
+      "bytes": 2045,
+      "sha256": "60a7206659180a78c7b8976e92cc66eddf6877f1980ba38a194785a770cff99f",
+      "lines": 60
+    },
+    {
+      "path": "go-server/internal/modules/dnf/pvf/doc.go",
+      "bytes": 299,
+      "sha256": "d02935e347256be9f407c5ed19ce4c110285c0e64e090b633e7dbf91b0b5a08b",
+      "lines": 5
+    },
+    {
+      "path": "go-server/internal/modules/dnf/pvf/index.go",
+      "bytes": 6762,
+      "sha256": "12f32967be98face7aaf89cc39986813312d6a09cf0f8ab3c3dd0eb75fbad2c7",
+      "lines": 284
+    },
+    {
+      "path": "go-server/internal/modules/dnf/pvf/list.go",
+      "bytes": 611,
+      "sha256": "2356e82ed912610b006b636df492b6d0bf96a4f884310643ff13924eb7073105",
+      "lines": 29
+    },
+    {
+      "path": "go-server/internal/modules/dnf/pvf/parse.go",
+      "bytes": 5469,
+      "sha256": "46751c6a2efbe16f0c298f917335e8b5be1b396d49114b16beb18a6dc66c1ff5",
+      "lines": 223
+    },
+    {
+      "path": "go-server/internal/modules/dnf/pvf/parse_test.go",
+      "bytes": 6793,
+      "sha256": "26e5aa0200776a72e2c83f5b313e64d755016ca9190fb2973b3e91a0c333cefd",
+      "lines": 235
+    },
+    {
+      "path": "go-server/internal/modules/dnf/pvf/path.go",
+      "bytes": 951,
+      "sha256": "680f635e7dbf011fc5794b1cc38320a3e980a133da4181700feef288e58f32aa",
+      "lines": 47
+    },
+    {
+      "path": "go-server/internal/modules/dnf/pvf/types.go",
+      "bytes": 2318,
+      "sha256": "b96eed826509da02762594a77998adca5efd0a3f66eee24b982de8a759be1e7c",
+      "lines": 84
+    },
+    {
+      "path": "go-server/internal/modules/dnf/pvf/value.go",
+      "bytes": 1697,
+      "sha256": "0603c208688bc33d14db76342b734d4de19503d0c42b2af2826c7fd8881eb3ee",
+      "lines": 76
+    },
+    {
+      "path": "go-server/cmd/scratch/pvfdump/main.go",
+      "bytes": 5199,
+      "sha256": "fa1d09daba6cb15b222be8f0041442741817c71f1962f0ccbd5630e93258e985",
+      "lines": 176
+    },
+    {
+      "path": "go-server/cmd/scratch/pvftextscan/main.go",
+      "bytes": 2276,
+      "sha256": "e890ddd7d2a7a52c1c6afddac48de4eecbea43b10ccc5aae21b08cfdc98a5992",
+      "lines": 86
+    },
+    {
+      "path": "go-server/cmd/scratch/pvfpatch/main.go",
+      "bytes": 3257,
+      "sha256": "73a0ada3a8f01ed1213704503b5ab75c6e2d99466f92b8d8569dd24cc4656423",
+      "lines": 105
+    },
+    {
+      "path": "go-server/cmd/scratch/pvfsetfile/main.go",
+      "bytes": 23199,
+      "sha256": "3ce773308b89b6c7b352b0dc328986d21efce9ef5360d46f59b90e8156d1251a",
+      "lines": 706
+    },
+    {
+      "path": "go-server/cmd/scratch/pvfscriptedit/main.go",
+      "bytes": 27440,
+      "sha256": "6fb39186789a3af620eb2ecde796dae28249ad6c213daf924a984334ecafe84d",
+      "lines": 732
+    },
+    {
+      "path": "go-server/go.mod",
+      "bytes": 2230,
+      "sha256": "55149c45118e569854889569afe5a3c4bac7294a70f2268c995a511f71351c64",
+      "lines": 56
+    }
+  ]
+}
